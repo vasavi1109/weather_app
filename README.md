@@ -30,11 +30,12 @@ A real-time weather forecasting desktop application built with **Python**, **Tki
 
 
 2. Install the required packages:
+   ```bash
    pip install -r requirements.txt
-3. Create a config.ini file in the root directory with the following content:
+4. Create a config.ini file in the root directory with the following content:
    [Openweather]
 api = your_openweathermap_api_key_here
 Replace your_openweathermap_api_key_here with your OpenWeatherMap API key.
 
-4. Run the app:
+5. Run the app:
    python weather_app.py
